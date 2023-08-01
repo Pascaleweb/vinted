@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+h1{
+    font-family: COMIC NEUE;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.container .loguer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-content: center; */
+    /* width: 275px; */
+}
+
+.container .loguer > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* /* align-content: center; */
+    /* width: 275px; */
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+/* .container .loguer > input{
+    height: 30px;
+} */
+
+.loguer input{
+    line-height: 20px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #ff0000 solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+

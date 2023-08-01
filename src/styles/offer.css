@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+.offer-page {
+  display: flex;
+  gap: 10px;
+}
+
+.offer-page > div:first-child {
+  border: 1px solid rgb(204, 12, 12);
+  width: 60%;
+  height: 600px;
+}
+.offer-page > div:last-child {
+  border: 1px solid rgb(0, 0, 0);
+  width: 40%;
+  height: 600px;
+}
+
+.offer-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+p{
+  font-family: Comic Neue;
+  color:#999999
+}
+
+.offer-page p{
+  color: black;
+}
